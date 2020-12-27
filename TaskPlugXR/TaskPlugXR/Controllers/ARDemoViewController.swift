@@ -84,6 +84,10 @@ class ARDemoViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.pause()
     }
     
+    @IBAction func dismissTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     // MARK: - ARSCNViewDelegate
     
     /*
